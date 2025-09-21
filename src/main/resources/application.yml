@@ -16,3 +16,8 @@ spring:
         dialect: org.hibernate.dialect.PostgreSQLDialect # PostgreSQL ?? ??
     show-sql: true # ???? SQL ?? ?? ??
 
+logging:
+  level:
+    org:
+      springframework:
+        security: DEBUG
